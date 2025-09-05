@@ -11,7 +11,8 @@ public class App {
             n1 = Integer.parseInt(in.nextLine());        
         System.out.println("Anna mulle toine numero");
             n2 = Integer.parseInt(in.nextLine());
-        System.out.println("Eka numerosi on " + n1);
-        System.out.println("Ja toka kummone ois " + n2);
+        int vastaus = n1 + n2;
+        System.out.println("Lukujen summa " + vastaus);
+        ;
     }   
 }
